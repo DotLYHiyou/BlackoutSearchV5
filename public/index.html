@@ -3,12 +3,39 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Chemical Example</title>
+		<title>Blackout Search V5</title>
 		<script src="/chemical.js"></script>
+		<style>
+			body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, black, grey);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+		</style>
 	</head>
 	<body>
-		<h1>Chemical Example</h1>
-		<input id="search" placeholder="Enter URL" />
+		<h1>Blackout Search V5</h1>
+		<h3>Made with ChemicalJS Basic</h3>
+		<input id="search" placeholder="Enter URL (starts with https://)" />
 
 		<script>
 			const search = document.getElementById("search");
